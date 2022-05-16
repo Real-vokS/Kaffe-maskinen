@@ -11,9 +11,10 @@ namespace Kaffe_maskinen
         public ILiquidContainer LiquidContainer { get; set; }
         public IFilter Filter { get; set; }
 
-        public Brewer(ILiquidContainer liquidContainer, i)
+        public Brewer(ILiquidContainer liquidContainer, IFilter filter)
         {
             this.LiquidContainer = liquidContainer;
+            this.Filter = filter;
         }
 
 

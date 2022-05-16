@@ -48,7 +48,7 @@ namespace Kaffe_maskinen
 
                 currentWaterInMl += neededWaterTillFull;
 
-                Console.WriteLine((overFlowWater / cupInMl)+ " cups of water has not been added. since it exceeded the max amount");
+                Console.WriteLine((overFlowWater / cupInMl) + " cups of water has not been added. since it exceeded the max amount");
             }
         }
 

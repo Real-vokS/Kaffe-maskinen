@@ -9,16 +9,12 @@ namespace Kaffe_maskinen
     interface IFilter
     {
 
+        void ContainIngrediens();
 
-        public bool FilterIsUsed
-        {
-            get => filterIsUsed;
-        }
+        void ReplaceFilter();
 
-        public bool FilterIsOn
-        {
-            get => filterIsOn;
-        }
+        public bool FilterIsUsed { get; }
+        public bool FilterIsOn { get; }
 
     }
 }

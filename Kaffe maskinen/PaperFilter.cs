@@ -12,6 +12,25 @@ namespace Kaffe_maskinen
         bool filterIsUsed = false;
         bool filterIsOn = false;
 
+        public void ContainIngrediens()
+        {
+
+        }
+
+        public void ReplaceFilter()
+        {
+
+        }
+
+        public bool FilterIsOn
+        {
+            get => filterIsOn;
+        }
+
+        public bool FilterIsUsed
+        {
+            get => filterIsUsed;
+        }
 
     }
 }

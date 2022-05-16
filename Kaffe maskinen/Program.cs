@@ -2,4 +2,3 @@
 
 Brewer b = new Brewer(new WaterContainer(1500));
 
-b.LiquidContainer.FillContainer(5);
